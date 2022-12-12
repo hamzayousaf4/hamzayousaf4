@@ -10,4 +10,4 @@ const data = [
     },
     ]
     const result = data.find((d) => d.name === "Ali");
-    console.log(result);
+    console.log("adding 1");
