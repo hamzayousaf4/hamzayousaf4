@@ -9,5 +9,5 @@ const data = [
         name :"Ali"
     },
     ]
-    const result = data.filter((d) => d.name === "Ali");
+    const result = data.find((d) => d.name === "Ali");
     console.log(result);
